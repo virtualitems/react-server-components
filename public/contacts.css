@@ -1,0 +1,73 @@
+.contacts-table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+.contacts-table thead {
+  background-color: #3498db;
+  color: #ffffff;
+  text-align: left;
+}
+
+.contacts-table th {
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Body styling */
+.contacts-table tbody tr {
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.contacts-table tbody tr:nth-of-type(even) {
+  background-color: #f3f9fd;
+}
+
+.contacts-table tbody tr:hover {
+  background-color: #e1f0fa;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+.contacts-table td {
+  padding: 1rem 1.5rem;
+}
+
+.contacts-table td.email {
+  color: #3498db;
+  font-weight: 500;
+}
+
+.contacts-table td.name {
+  font-weight: 600;
+}
+
+.contacts-table-container {
+  padding: 1rem;
+  position: relative;
+}
+
+.contacts-table-title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.contacts-empty-message {
+  text-align: center;
+  padding: 2rem;
+  color: #7f8c8d;
+  font-style: italic;
+}
