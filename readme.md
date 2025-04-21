@@ -1,5 +1,7 @@
 # React Server Components
 
+## Install steps
+
 ```sh
 npm install
 ```
