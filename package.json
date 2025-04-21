@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/package",
-  "name": "my-express-app",
+  "name": "react-server-components",
   "version": "1.0.0",
   "description": "A simple Express app with TypeScript and React",
   "main": "build/main.js",
