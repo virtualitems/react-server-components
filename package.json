@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "A simple Express app with TypeScript and React",
   "main": "build/main.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "start": "npx ts-node ./source/main.ts"
